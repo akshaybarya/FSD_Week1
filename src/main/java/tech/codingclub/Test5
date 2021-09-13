@@ -1,0 +1,55 @@
+package tech.codingclub;
+
+/*abstract class Foo{
+    void print(){
+        System.out.println("HELLO");
+    }
+    abstract int m();
+}
+
+class Foo{
+    int m(){
+        return 0;
+    }
+}
+*/
+class Doo{
+    /*int m(){
+        System.out.println(super.m());
+        return 69;
+    }
+    int m(int x){
+        return x;
+    }
+    int m(int x,int y){
+        return x+y;
+    }*/
+    class Foo{
+        void m(){
+            System.out.print("Hello ");
+        }
+    }
+
+    void n(){
+        Foo f = new Foo();
+        f.m();
+        System.out.println("World");
+    }
+}
+
+public class Test5 {
+    public static void main(String[] args) {
+        Doo d = new Doo();
+        //Foo f = new Doo();
+        /*System.out.println(d.m());
+        //f.print();
+        //d.print();
+        System.out.println(f.m());*/
+        /*StringBuffer s = new StringBuffer("Hello");
+        System.out.println(s);
+        String w = "World";
+        s.append(w);
+        System.out.println(s);*/
+        d.n();
+    }
+}
