@@ -1,4 +1,5 @@
 package tech.codingclub;
 
-public class AbstractClass {
+public abstract class AbstractClass {
+    public abstract void m();
 }
